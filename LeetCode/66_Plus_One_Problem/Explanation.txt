@@ -1,0 +1,9 @@
+1. Start from the least significant digit (the last element of the vector) and add 1 to it.
+
+2. Loop through the digits from right to left. If a digit becomes 10 (due to carry), set it to 0 and increment the next digit (to the left).
+
+3. Continue this process until there are no more carry digits or you reach the most significant digit.
+
+4. If the most significant digit still has a carry, insert a new 1 at the beginning of the vector.
+
+5. Return the updated vector representing the incremented integer.
