@@ -1,0 +1,8 @@
+1. If x is 0, return 0.
+2. Initialize first to 1 and last to x.
+3. While first is less than or equal to last, do the following:
+	a. Compute mid as first + (last - first) / 2.
+	b. If mid * mid equals x, return mid.
+	c. If mid * mid is greater than x, update last to mid - 1.
+	d. If mid * mid is less than x, update first to mid + 1.
+4. Return last.
